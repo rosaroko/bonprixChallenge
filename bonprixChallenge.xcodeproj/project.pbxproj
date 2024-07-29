@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F61CD8C82C5654430089C7E4 /* BoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61CD8C72C5654430089C7E4 /* BoolExtension.swift */; };
+		F61CD8C92C5654430089C7E4 /* BoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61CD8C72C5654430089C7E4 /* BoolExtension.swift */; };
+		F61CD8CA2C5654430089C7E4 /* BoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61CD8C72C5654430089C7E4 /* BoolExtension.swift */; };
+		F61CD8CD2C5657240089C7E4 /* ProductVariantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61CD8CC2C5657240089C7E4 /* ProductVariantViewModel.swift */; };
+		F61CD8CE2C5657240089C7E4 /* ProductVariantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61CD8CC2C5657240089C7E4 /* ProductVariantViewModel.swift */; };
+		F61CD8CF2C5657240089C7E4 /* ProductVariantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61CD8CC2C5657240089C7E4 /* ProductVariantViewModel.swift */; };
+		F62DC51C2C56E13A008AAD2B /* ProductAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62DC51B2C56E13A008AAD2B /* ProductAddButton.swift */; };
+		F62DC51E2C56E186008AAD2B /* AddButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62DC51D2C56E186008AAD2B /* AddButtonViewModel.swift */; };
+		F62DC5202C56E374008AAD2B /* GradientFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62DC51F2C56E374008AAD2B /* GradientFlowView.swift */; };
+		F62DC5212C56E837008AAD2B /* GradientFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62DC51F2C56E374008AAD2B /* GradientFlowView.swift */; };
+		F62DC5222C56E837008AAD2B /* GradientFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62DC51F2C56E374008AAD2B /* GradientFlowView.swift */; };
+		F634DC792C5254A60018A36D /* bonprixChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC782C5254A60018A36D /* bonprixChallengeApp.swift */; };
+		F634DC7B2C5254A60018A36D /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC7A2C5254A60018A36D /* ProductsView.swift */; };
+		F634DC7D2C5254A70018A36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634DC7C2C5254A70018A36D /* Assets.xcassets */; };
+		F634DC812C5254A70018A36D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F634DC802C5254A70018A36D /* Preview Assets.xcassets */; };
+		F634DC8B2C5254A70018A36D /* bonprixChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC8A2C5254A70018A36D /* bonprixChallengeTests.swift */; };
+		F634DC952C5254A70018A36D /* bonprixChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC942C5254A70018A36D /* bonprixChallengeUITests.swift */; };
+		F634DC972C5254A70018A36D /* bonprixChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC962C5254A70018A36D /* bonprixChallengeUITestsLaunchTests.swift */; };
+		F634DCA52C53B4280018A36D /* dataMock.json in Resources */ = {isa = PBXBuildFile; fileRef = F634DCA42C53B4280018A36D /* dataMock.json */; };
+		F634DCA82C53B5290018A36D /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DCA72C53B5290018A36D /* ProductsViewModel.swift */; };
+		F634DCA92C53B5290018A36D /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DCA72C53B5290018A36D /* ProductsViewModel.swift */; };
+		F634DCAA2C53B5290018A36D /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DCA72C53B5290018A36D /* ProductsViewModel.swift */; };
+		F634DCAD2C53B5EC0018A36D /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC7A2C5254A60018A36D /* ProductsView.swift */; };
+		F634DCAF2C53B5ED0018A36D /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F634DC7A2C5254A60018A36D /* ProductsView.swift */; };
+		F694BFEE2C53F6F400DC757A /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFED2C53F6F400DC757A /* ProductCard.swift */; };
+		F694BFEF2C53F6F400DC757A /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFED2C53F6F400DC757A /* ProductCard.swift */; };
+		F694BFF02C53F6F400DC757A /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFED2C53F6F400DC757A /* ProductCard.swift */; };
+		F694BFF22C53F72000DC757A /* ProductCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFF12C53F72000DC757A /* ProductCardViewModel.swift */; };
+		F694BFF32C53F72000DC757A /* ProductCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFF12C53F72000DC757A /* ProductCardViewModel.swift */; };
+		F694BFF42C53F72000DC757A /* ProductCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFF12C53F72000DC757A /* ProductCardViewModel.swift */; };
+		F694BFF72C53F76900DC757A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFF62C53F76900DC757A /* Product.swift */; };
+		F694BFF82C53F76900DC757A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFF62C53F76900DC757A /* Product.swift */; };
+		F694BFF92C53F76900DC757A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFF62C53F76900DC757A /* Product.swift */; };
+		F694BFFB2C53F78900DC757A /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFFA2C53F78900DC757A /* Price.swift */; };
+		F694BFFC2C53F78900DC757A /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFFA2C53F78900DC757A /* Price.swift */; };
+		F694BFFD2C53F78900DC757A /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFFA2C53F78900DC757A /* Price.swift */; };
+		F694BFFF2C53F7BE00DC757A /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFFE2C53F7BE00DC757A /* Variant.swift */; };
+		F694C0002C53F7BE00DC757A /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFFE2C53F7BE00DC757A /* Variant.swift */; };
+		F694C0012C53F7BE00DC757A /* Variant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694BFFE2C53F7BE00DC757A /* Variant.swift */; };
+		F694C0032C54018A00DC757A /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0022C54018A00DC757A /* ProductDetailsView.swift */; };
+		F694C0042C54018A00DC757A /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0022C54018A00DC757A /* ProductDetailsView.swift */; };
+		F694C0052C54018A00DC757A /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0022C54018A00DC757A /* ProductDetailsView.swift */; };
+		F694C0072C54020700DC757A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0062C54020700DC757A /* ContentView.swift */; };
+		F694C0082C54020700DC757A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0062C54020700DC757A /* ContentView.swift */; };
+		F694C0092C54020700DC757A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0062C54020700DC757A /* ContentView.swift */; };
+		F694C0102C54383100DC757A /* roman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F694C00F2C54383100DC757A /* roman.jpg */; };
+		F694C0112C54383100DC757A /* roman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F694C00F2C54383100DC757A /* roman.jpg */; };
+		F694C0122C54383100DC757A /* roman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F694C00F2C54383100DC757A /* roman.jpg */; };
+		F694C0152C544A6300DC757A /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0142C544A6300DC757A /* AnimatedGradient.swift */; };
+		F694C0162C544A6300DC757A /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0142C544A6300DC757A /* AnimatedGradient.swift */; };
+		F694C0172C544A6300DC757A /* AnimatedGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F694C0142C544A6300DC757A /* AnimatedGradient.swift */; };
+		F6CD9B1E2C545AE900A4D2CB /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD9B1D2C545AE900A4D2CB /* ProductDetailsViewModel.swift */; };
+		F6CD9B1F2C545AE900A4D2CB /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD9B1D2C545AE900A4D2CB /* ProductDetailsViewModel.swift */; };
+		F6CD9B202C545AE900A4D2CB /* ProductDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD9B1D2C545AE900A4D2CB /* ProductDetailsViewModel.swift */; };
+		F6CD9B222C545BBB00A4D2CB /* NavigationalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD9B212C545BBB00A4D2CB /* NavigationalObject.swift */; };
+		F6CD9B232C545BBB00A4D2CB /* NavigationalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD9B212C545BBB00A4D2CB /* NavigationalObject.swift */; };
+		F6CD9B242C545BBB00A4D2CB /* NavigationalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD9B212C545BBB00A4D2CB /* NavigationalObject.swift */; };
+		F6D207602C564E1700EE70C9 /* ProductVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2075F2C564E1700EE70C9 /* ProductVariant.swift */; };
+		F6D207612C564E1700EE70C9 /* ProductVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2075F2C564E1700EE70C9 /* ProductVariant.swift */; };
+		F6D207622C564E1700EE70C9 /* ProductVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2075F2C564E1700EE70C9 /* ProductVariant.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F634DC872C5254A70018A36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F634DC6D2C5254A60018A36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F634DC742C5254A60018A36D;
+			remoteInfo = bonprixChallenge;
+		};
+		F634DC912C5254A70018A36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F634DC6D2C5254A60018A36D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F634DC742C5254A60018A36D;
+			remoteInfo = bonprixChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F61CD8C72C5654430089C7E4 /* BoolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolExtension.swift; sourceTree = "<group>"; };
+		F61CD8CC2C5657240089C7E4 /* ProductVariantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVariantViewModel.swift; sourceTree = "<group>"; };
+		F62DC51B2C56E13A008AAD2B /* ProductAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddButton.swift; sourceTree = "<group>"; };
+		F62DC51D2C56E186008AAD2B /* AddButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonViewModel.swift; sourceTree = "<group>"; };
+		F62DC51F2C56E374008AAD2B /* GradientFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientFlowView.swift; sourceTree = "<group>"; };
+		F634DC752C5254A60018A36D /* bonprixChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bonprixChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634DC782C5254A60018A36D /* bonprixChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonprixChallengeApp.swift; sourceTree = "<group>"; };
+		F634DC7A2C5254A60018A36D /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		F634DC7C2C5254A70018A36D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F634DC7E2C5254A70018A36D /* bonprixChallenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bonprixChallenge.entitlements; sourceTree = "<group>"; };
+		F634DC802C5254A70018A36D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F634DC862C5254A70018A36D /* bonprixChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bonprixChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634DC8A2C5254A70018A36D /* bonprixChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonprixChallengeTests.swift; sourceTree = "<group>"; };
+		F634DC902C5254A70018A36D /* bonprixChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bonprixChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634DC942C5254A70018A36D /* bonprixChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonprixChallengeUITests.swift; sourceTree = "<group>"; };
+		F634DC962C5254A70018A36D /* bonprixChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bonprixChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F634DCA42C53B4280018A36D /* dataMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataMock.json; sourceTree = "<group>"; };
+		F634DCA72C53B5290018A36D /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		F694BFED2C53F6F400DC757A /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		F694BFF12C53F72000DC757A /* ProductCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardViewModel.swift; sourceTree = "<group>"; };
+		F694BFF62C53F76900DC757A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		F694BFFA2C53F78900DC757A /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		F694BFFE2C53F7BE00DC757A /* Variant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant.swift; sourceTree = "<group>"; };
+		F694C0022C54018A00DC757A /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		F694C0062C54020700DC757A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F694C00F2C54383100DC757A /* roman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roman.jpg; sourceTree = "<group>"; };
+		F694C0142C544A6300DC757A /* AnimatedGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedGradient.swift; sourceTree = "<group>"; };
+		F6CD9B1D2C545AE900A4D2CB /* ProductDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewModel.swift; sourceTree = "<group>"; };
+		F6CD9B212C545BBB00A4D2CB /* NavigationalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationalObject.swift; sourceTree = "<group>"; };
+		F6D2075F2C564E1700EE70C9 /* ProductVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVariant.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F634DC722C5254A60018A36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634DC832C5254A70018A36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634DC8D2C5254A70018A36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F62DC51A2C56E124008AAD2B /* ProductAddButton */ = {
+			isa = PBXGroup;
+			children = (
+				F62DC51B2C56E13A008AAD2B /* ProductAddButton.swift */,
+				F62DC51D2C56E186008AAD2B /* AddButtonViewModel.swift */,
+			);
+			path = ProductAddButton;
+			sourceTree = "<group>";
+		};
+		F634DC6C2C5254A60018A36D = {
+			isa = PBXGroup;
+			children = (
+				F634DC772C5254A60018A36D /* bonprixChallenge */,
+				F634DC892C5254A70018A36D /* bonprixChallengeTests */,
+				F634DC932C5254A70018A36D /* bonprixChallengeUITests */,
+				F634DC762C5254A60018A36D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F634DC762C5254A60018A36D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F634DC752C5254A60018A36D /* bonprixChallenge.app */,
+				F634DC862C5254A70018A36D /* bonprixChallengeTests.xctest */,
+				F634DC902C5254A70018A36D /* bonprixChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F634DC772C5254A60018A36D /* bonprixChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				F694BFF52C53F75800DC757A /* DataModel */,
+				F694BFE22C53BDDC00DC757A /* Util */,
+				F634DCA62C53B4390018A36D /* Views */,
+				F634DC782C5254A60018A36D /* bonprixChallengeApp.swift */,
+				F634DC7C2C5254A70018A36D /* Assets.xcassets */,
+				F634DC7E2C5254A70018A36D /* bonprixChallenge.entitlements */,
+				F634DCA32C53B3510018A36D /* SupportingFiles */,
+				F634DC7F2C5254A70018A36D /* Preview Content */,
+			);
+			path = bonprixChallenge;
+			sourceTree = "<group>";
+		};
+		F634DC7F2C5254A70018A36D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F634DC802C5254A70018A36D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F634DC892C5254A70018A36D /* bonprixChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F634DC8A2C5254A70018A36D /* bonprixChallengeTests.swift */,
+			);
+			path = bonprixChallengeTests;
+			sourceTree = "<group>";
+		};
+		F634DC932C5254A70018A36D /* bonprixChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F634DC942C5254A70018A36D /* bonprixChallengeUITests.swift */,
+				F634DC962C5254A70018A36D /* bonprixChallengeUITestsLaunchTests.swift */,
+			);
+			path = bonprixChallengeUITests;
+			sourceTree = "<group>";
+		};
+		F634DCA32C53B3510018A36D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F694C00F2C54383100DC757A /* roman.jpg */,
+				F634DCA42C53B4280018A36D /* dataMock.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F634DCA62C53B4390018A36D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F694C0132C5449C600DC757A /* Misc */,
+				F694C00B2C54021500DC757A /* Root */,
+				F634DCAC2C53B5B50018A36D /* Produtcts */,
+				F634DCAB2C53B5A80018A36D /* ProductsDetails */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F634DCAB2C53B5A80018A36D /* ProductsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F62DC51A2C56E124008AAD2B /* ProductAddButton */,
+				F6D2075E2C564DFB00EE70C9 /* ProductVariants */,
+				F694C0022C54018A00DC757A /* ProductDetailsView.swift */,
+				F6CD9B1D2C545AE900A4D2CB /* ProductDetailsViewModel.swift */,
+			);
+			path = ProductsDetails;
+			sourceTree = "<group>";
+		};
+		F634DCAC2C53B5B50018A36D /* Produtcts */ = {
+			isa = PBXGroup;
+			children = (
+				F694BFEC2C53F6E100DC757A /* ProductCards */,
+				F634DC7A2C5254A60018A36D /* ProductsView.swift */,
+				F634DCA72C53B5290018A36D /* ProductsViewModel.swift */,
+			);
+			path = Produtcts;
+			sourceTree = "<group>";
+		};
+		F694BFE22C53BDDC00DC757A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F61CD8C72C5654430089C7E4 /* BoolExtension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F694BFEC2C53F6E100DC757A /* ProductCards */ = {
+			isa = PBXGroup;
+			children = (
+				F694BFED2C53F6F400DC757A /* ProductCard.swift */,
+				F694BFF12C53F72000DC757A /* ProductCardViewModel.swift */,
+			);
+			path = ProductCards;
+			sourceTree = "<group>";
+		};
+		F694BFF52C53F75800DC757A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				F694BFF62C53F76900DC757A /* Product.swift */,
+				F694BFFA2C53F78900DC757A /* Price.swift */,
+				F694BFFE2C53F7BE00DC757A /* Variant.swift */,
+				F6CD9B212C545BBB00A4D2CB /* NavigationalObject.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		F694C00B2C54021500DC757A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F694C0062C54020700DC757A /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F694C0132C5449C600DC757A /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F694C0142C544A6300DC757A /* AnimatedGradient.swift */,
+				F62DC51F2C56E374008AAD2B /* GradientFlowView.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F6D2075E2C564DFB00EE70C9 /* ProductVariants */ = {
+			isa = PBXGroup;
+			children = (
+				F6D2075F2C564E1700EE70C9 /* ProductVariant.swift */,
+				F61CD8CC2C5657240089C7E4 /* ProductVariantViewModel.swift */,
+			);
+			path = ProductVariants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F634DC742C5254A60018A36D /* bonprixChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634DC9A2C5254A70018A36D /* Build configuration list for PBXNativeTarget "bonprixChallenge" */;
+			buildPhases = (
+				F634DC712C5254A60018A36D /* Sources */,
+				F634DC722C5254A60018A36D /* Frameworks */,
+				F634DC732C5254A60018A36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bonprixChallenge;
+			packageProductDependencies = (
+			);
+			productName = bonprixChallenge;
+			productReference = F634DC752C5254A60018A36D /* bonprixChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F634DC852C5254A70018A36D /* bonprixChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634DC9D2C5254A70018A36D /* Build configuration list for PBXNativeTarget "bonprixChallengeTests" */;
+			buildPhases = (
+				F634DC822C5254A70018A36D /* Sources */,
+				F634DC832C5254A70018A36D /* Frameworks */,
+				F634DC842C5254A70018A36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F634DC882C5254A70018A36D /* PBXTargetDependency */,
+			);
+			name = bonprixChallengeTests;
+			productName = bonprixChallengeTests;
+			productReference = F634DC862C5254A70018A36D /* bonprixChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F634DC8F2C5254A70018A36D /* bonprixChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634DCA02C5254A70018A36D /* Build configuration list for PBXNativeTarget "bonprixChallengeUITests" */;
+			buildPhases = (
+				F634DC8C2C5254A70018A36D /* Sources */,
+				F634DC8D2C5254A70018A36D /* Frameworks */,
+				F634DC8E2C5254A70018A36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F634DC922C5254A70018A36D /* PBXTargetDependency */,
+			);
+			name = bonprixChallengeUITests;
+			productName = bonprixChallengeUITests;
+			productReference = F634DC902C5254A70018A36D /* bonprixChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F634DC6D2C5254A60018A36D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F634DC742C5254A60018A36D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F634DC852C5254A70018A36D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F634DC742C5254A60018A36D;
+					};
+					F634DC8F2C5254A70018A36D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F634DC742C5254A60018A36D;
+					};
+				};
+			};
+			buildConfigurationList = F634DC702C5254A60018A36D /* Build configuration list for PBXProject "bonprixChallenge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F634DC6C2C5254A60018A36D;
+			packageReferences = (
+			);
+			productRefGroup = F634DC762C5254A60018A36D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F634DC742C5254A60018A36D /* bonprixChallenge */,
+				F634DC852C5254A70018A36D /* bonprixChallengeTests */,
+				F634DC8F2C5254A70018A36D /* bonprixChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F634DC732C5254A60018A36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634DC812C5254A70018A36D /* Preview Assets.xcassets in Resources */,
+				F694C0102C54383100DC757A /* roman.jpg in Resources */,
+				F634DCA52C53B4280018A36D /* dataMock.json in Resources */,
+				F634DC7D2C5254A70018A36D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634DC842C5254A70018A36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F694C0112C54383100DC757A /* roman.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634DC8E2C5254A70018A36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F694C0122C54383100DC757A /* roman.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F634DC712C5254A60018A36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634DC7B2C5254A60018A36D /* ProductsView.swift in Sources */,
+				F694C0152C544A6300DC757A /* AnimatedGradient.swift in Sources */,
+				F62DC51E2C56E186008AAD2B /* AddButtonViewModel.swift in Sources */,
+				F694BFF72C53F76900DC757A /* Product.swift in Sources */,
+				F62DC5202C56E374008AAD2B /* GradientFlowView.swift in Sources */,
+				F694C0072C54020700DC757A /* ContentView.swift in Sources */,
+				F6D207602C564E1700EE70C9 /* ProductVariant.swift in Sources */,
+				F694BFFF2C53F7BE00DC757A /* Variant.swift in Sources */,
+				F61CD8CD2C5657240089C7E4 /* ProductVariantViewModel.swift in Sources */,
+				F634DCA82C53B5290018A36D /* ProductsViewModel.swift in Sources */,
+				F61CD8C82C5654430089C7E4 /* BoolExtension.swift in Sources */,
+				F634DC792C5254A60018A36D /* bonprixChallengeApp.swift in Sources */,
+				F694C0032C54018A00DC757A /* ProductDetailsView.swift in Sources */,
+				F6CD9B1E2C545AE900A4D2CB /* ProductDetailsViewModel.swift in Sources */,
+				F694BFFB2C53F78900DC757A /* Price.swift in Sources */,
+				F6CD9B222C545BBB00A4D2CB /* NavigationalObject.swift in Sources */,
+				F62DC51C2C56E13A008AAD2B /* ProductAddButton.swift in Sources */,
+				F694BFEE2C53F6F400DC757A /* ProductCard.swift in Sources */,
+				F694BFF22C53F72000DC757A /* ProductCardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634DC822C5254A70018A36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634DCA92C53B5290018A36D /* ProductsViewModel.swift in Sources */,
+				F62DC5222C56E837008AAD2B /* GradientFlowView.swift in Sources */,
+				F694C0162C544A6300DC757A /* AnimatedGradient.swift in Sources */,
+				F694BFF82C53F76900DC757A /* Product.swift in Sources */,
+				F694C0082C54020700DC757A /* ContentView.swift in Sources */,
+				F6D207612C564E1700EE70C9 /* ProductVariant.swift in Sources */,
+				F694C0002C53F7BE00DC757A /* Variant.swift in Sources */,
+				F61CD8CE2C5657240089C7E4 /* ProductVariantViewModel.swift in Sources */,
+				F634DC8B2C5254A70018A36D /* bonprixChallengeTests.swift in Sources */,
+				F61CD8C92C5654430089C7E4 /* BoolExtension.swift in Sources */,
+				F634DCAF2C53B5ED0018A36D /* ProductsView.swift in Sources */,
+				F694C0042C54018A00DC757A /* ProductDetailsView.swift in Sources */,
+				F6CD9B1F2C545AE900A4D2CB /* ProductDetailsViewModel.swift in Sources */,
+				F694BFFC2C53F78900DC757A /* Price.swift in Sources */,
+				F6CD9B232C545BBB00A4D2CB /* NavigationalObject.swift in Sources */,
+				F694BFEF2C53F6F400DC757A /* ProductCard.swift in Sources */,
+				F694BFF32C53F72000DC757A /* ProductCardViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F634DC8C2C5254A70018A36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634DCAD2C53B5EC0018A36D /* ProductsView.swift in Sources */,
+				F694BFF92C53F76900DC757A /* Product.swift in Sources */,
+				F694BFFD2C53F78900DC757A /* Price.swift in Sources */,
+				F634DC952C5254A70018A36D /* bonprixChallengeUITests.swift in Sources */,
+				F62DC5212C56E837008AAD2B /* GradientFlowView.swift in Sources */,
+				F634DCAA2C53B5290018A36D /* ProductsViewModel.swift in Sources */,
+				F694C0012C53F7BE00DC757A /* Variant.swift in Sources */,
+				F6CD9B242C545BBB00A4D2CB /* NavigationalObject.swift in Sources */,
+				F61CD8CF2C5657240089C7E4 /* ProductVariantViewModel.swift in Sources */,
+				F694BFF42C53F72000DC757A /* ProductCardViewModel.swift in Sources */,
+				F694C0172C544A6300DC757A /* AnimatedGradient.swift in Sources */,
+				F6D207622C564E1700EE70C9 /* ProductVariant.swift in Sources */,
+				F634DC972C5254A70018A36D /* bonprixChallengeUITestsLaunchTests.swift in Sources */,
+				F6CD9B202C545AE900A4D2CB /* ProductDetailsViewModel.swift in Sources */,
+				F694C0092C54020700DC757A /* ContentView.swift in Sources */,
+				F61CD8CA2C5654430089C7E4 /* BoolExtension.swift in Sources */,
+				F694C0052C54018A00DC757A /* ProductDetailsView.swift in Sources */,
+				F694BFF02C53F6F400DC757A /* ProductCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F634DC882C5254A70018A36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F634DC742C5254A60018A36D /* bonprixChallenge */;
+			targetProxy = F634DC872C5254A70018A36D /* PBXContainerItemProxy */;
+		};
+		F634DC922C5254A70018A36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F634DC742C5254A60018A36D /* bonprixChallenge */;
+			targetProxy = F634DC912C5254A70018A36D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F634DC982C5254A70018A36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F634DC992C5254A70018A36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F634DC9B2C5254A70018A36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bonprixChallenge/bonprixChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bonprixChallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bonprix.challenge.roman.sorokin.bonprixChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F634DC9C2C5254A70018A36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bonprixChallenge/bonprixChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bonprixChallenge/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bonprix.challenge.roman.sorokin.bonprixChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F634DC9E2C5254A70018A36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bonprix.challenge.roman.sorokin.bonprixChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bonprixChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bonprixChallenge";
+			};
+			name = Debug;
+		};
+		F634DC9F2C5254A70018A36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bonprix.challenge.roman.sorokin.bonprixChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bonprixChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bonprixChallenge";
+			};
+			name = Release;
+		};
+		F634DCA12C5254A70018A36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bonprix.challenge.roman.sorokin.bonprixChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bonprixChallenge;
+			};
+			name = Debug;
+		};
+		F634DCA22C5254A70018A36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bonprix.challenge.roman.sorokin.bonprixChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bonprixChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F634DC702C5254A60018A36D /* Build configuration list for PBXProject "bonprixChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634DC982C5254A70018A36D /* Debug */,
+				F634DC992C5254A70018A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F634DC9A2C5254A70018A36D /* Build configuration list for PBXNativeTarget "bonprixChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634DC9B2C5254A70018A36D /* Debug */,
+				F634DC9C2C5254A70018A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F634DC9D2C5254A70018A36D /* Build configuration list for PBXNativeTarget "bonprixChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634DC9E2C5254A70018A36D /* Debug */,
+				F634DC9F2C5254A70018A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F634DCA02C5254A70018A36D /* Build configuration list for PBXNativeTarget "bonprixChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634DCA12C5254A70018A36D /* Debug */,
+				F634DCA22C5254A70018A36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F634DC6D2C5254A60018A36D /* Project object */;
+}
