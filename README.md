@@ -1,4 +1,8 @@
-Vorgehensweise
+# Code Challange 
+
+Kurze Sammlung von allem relevanten zur heutigen Besprechung
+
+## Vorgehensweise
 
 Zunächst habe ich die Datenmodell abgebildet und dabei überlegt, wie ich diese Daten auf der View und in der ViewModel unterbringen kann. 
 Beim Umsetzen brauchte ich zunächst eine funktionierende, aber auch erweiterbare Navigation, über welche dann die Daten übertragen werden.
